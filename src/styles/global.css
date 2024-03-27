@@ -44,6 +44,7 @@ h2 {
 p {
     font-family: var(--body);
     font-size: 1.1rem;
+    hyphens: auto;
     line-height: 1.5;
     text-indent: 1rem;
 }
@@ -55,8 +56,10 @@ small, li {
 /* Navigation Bar */
 .navbar {
     display: block;
+    display: grid;
     grid-template-columns: 1fr 1fr;
     margin-top: 2.0rem;
+    margin-top: 0.8rem;
 }
 
 .navbar__title {
@@ -247,6 +250,18 @@ footer {
 }
 
 
+.git-icon {
+    content: url("/github-mark-white.svg");
+}
+
+.mail-icon {
+    content: url("/mail-white.svg");
+}
+
+.linked-in {
+    content: url("/li-in-white.png");
+}
+
 /* 404 */
 .lost {
     margin-top: 30%;
@@ -308,6 +323,17 @@ html.light {
     border-color: var(--text-link);
 }
 
+.light .git-icon {
+    content: url("/github-mark.svg");
+}
+
+.light .mail-icon {
+    content: url("/mail.svg");
+}
+
+.light .linked-in {
+    content: url("/li-in.png");
+}
 
 .light .badge__link {
     color: var(--text-link);
