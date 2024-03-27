@@ -56,10 +56,8 @@ small, li {
 /* Navigation Bar */
 .navbar {
     display: block;
-    display: grid;
     grid-template-columns: 1fr 1fr;
     margin-top: 2.0rem;
-    margin-top: 0.8rem;
 }
 
 .navbar__title {
